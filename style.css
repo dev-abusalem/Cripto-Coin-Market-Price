@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+	font-weight: 500;
+}
+body{
+	background:#020114;
+}
+#preload{
+	background-color:#000;
+	background-image: url('img/loading.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+	position: fixed;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+	
+}
+/**/
+form{
+	margin: 15px auto;
+	padding:20px 25px;
+	
+}
+form input{
+	padding:10px 25px;
+	border:1px solid gray;
+	color:#fff;
+	outline: none;
+	font-size:17px;
+	font-weight: 400;
+	border-radius: 4px;
+	background-color:transparent;
+	display: block;
+	width: 35%;
+	margin: 0 auto;
+	transition: 0.4s all ease;
+	letter-spacing: 1px;
+
+}
+input[type=text]:focus{
+	width: 40%;
+
+}
+input::placeholder{
+	color:gray;
+	letter-spacing: 1px;
+}
+.container{
+	
+	margin: 0 auto;
+	max-width: 1200px;
+	
+}
+.card{
+	padding:15px;
+	border:1px solid #f1f0f0;
+	border-radius: 5px;
+	display: inline-block;
+	color:gray;
+	text-align: center;
+	transition: 0.4s all ease;
+	margin: 10px;
+	width: 23%;
+	cursor: pointer;
+	
+}
+.card:hover{
+	background: #fff;
+	color:#020114;
+}
+.card-head img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.divider{
+	
+	width: 100%;
+	height: 1px;
+	background: #4e4f4f;
+	margin:10px 0px;
+}
+
+
